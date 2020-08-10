@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html, body, #__nuxt, #__layout {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+
+.bottom-2 {
+    bottom: 2rem;
+}
+.right-2 {
+    right: 2rem;
+}
